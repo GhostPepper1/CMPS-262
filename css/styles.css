@@ -1,4 +1,28 @@
-p {
+p.bigred {
 	font-family: Georgia, Times, Serif;
-	color: blue;
+	color: red;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
+p {
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	color: black;
+	font-size: .9em;
+}
+
+h4.table {
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	color: green;
+	font-size: .9em;
+	font-style: underline;
+	font-weight: bold;
+}
+
+h3.italic {
+	font-style: italic;
+}
+
+div.space {
+	padding-top: 2em;
 }
