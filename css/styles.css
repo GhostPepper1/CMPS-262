@@ -26,3 +26,8 @@ h3.italic {
 div.space {
 	padding-top: 2em;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
