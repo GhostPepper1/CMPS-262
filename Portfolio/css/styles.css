@@ -4,6 +4,10 @@ body {
 div.header {
 	float:left;
 }
+div.space {
+	padding-top: 100px;
+	padding-left: 30px;
+}
 .nav1 {
   overflow: hidden;
 	width: 500px;
@@ -21,6 +25,15 @@ div.header {
 }
 .nav1 a:hover {
   color: #202f5e;
+}
+.border {
+ border-style:solid;
+ border-color:#656578;
+ border-width: 1px;
+ padding: 50 30 150 30;
+ width: 35%;
+ background-color: #54566b;
+}
 ul {
   margin: 0;
 }
