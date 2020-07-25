@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page 3: Animation</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			function rgt() {
+				$('jaws').animate({ left: "150" }, 10000, hider);
+			}
+			rgt();
+			function hider() {
+					$('#jaws').css('left', '0px');
+						rgt();
+					}
+			});
+	</script>
+</head>
+<body>
+	<p>Beware of Sharks!</p>
+		<form id="form1" runat="server">
+			<div>
+				<img id="jaws" src="shark.gif" style="position:absolute" />
+			</div>
+		</form>
+
+		<p style="padding-top:500px">I have worked on this page for almost 2 hours and I cannot get my gif to move.
+			I have copied your code exactly and tried other code from other sources but I cannot
+			figure out what the problem is.  My word "left" in line 9 and "position:absolute" in line
+			23 are not red and green like yours and I don't know why.  If you could let me know what
+			I'm missing, I would appreciate it.</p>
+</body>
+</html>
