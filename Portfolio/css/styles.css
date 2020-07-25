@@ -1,6 +1,9 @@
 body {
 	background-color:#353a4a;
 }
+div.header {
+	float:left;
+}
 .nav1 {
   overflow: hidden;
 	width: 500px;
