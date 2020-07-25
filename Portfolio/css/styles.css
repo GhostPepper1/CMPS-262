@@ -1,0 +1,23 @@
+body {
+	background-color:#353a4a;
+}
+.nav1 {
+  overflow: hidden;
+	width: 500px;
+	padding-left: 1px;
+}
+.nav1 a {
+	color: #19191f;
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 19px;
+	font-weight: bold;
+}
+.nav1 a:hover {
+  color: #202f5e;
+ul {
+  margin: 0;
+}
