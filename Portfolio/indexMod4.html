@@ -2,7 +2,7 @@
   <head>
 	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-  <script src="jquery-3.2.1.min.js"></script>
+  <script src="jquery-3.5.1.min.js"></script>
     </head>
   <body>
     <div class=header>
@@ -22,21 +22,31 @@
       currently working on my senior project and learning to program using html, javascript, and jQuery.  I plan
       to graduate at the end of 2020 with a Bachelor of Science in Information Technology.<br><br>
 
-      My primary career interests include forensics, programming, and networking.  Please check out the projects I
-      have been working on and feel free to contact me if you would like
+      My primary career interests include forensics, programming, and networking.  Please click on any of the images below to check out the projects I
+      have been working on, and feel free to contact me if you would like
       more information.
     </p>  </center>
-  <div class=screenshot/>
+    <div class=screenshot/>
     <center><a href="http://mwsmith.it.pointpark.edu/homepage.html">
-  <img src="HikerHack.gif" class=resize alt=HikerHack>
+  <img id=HikerHack src="HikerHack.gif" class=resize alt=HikerHack>
   <a href="http://mwsmith.it.pointpark.edu/Pennsylvania/Pennsylvania.html">
-<img src="PA.jpg" class=resize alt=Pennsylvania>
+<img id= PA src="PA.jpg" class=resize alt=Pennsylvania>
 <a href="http://mwsmith.it.pointpark.edu/CMPS262/indexMod3.html">
-<img src="WebScreenshotHP.jpg" class=resize alt=Homepage></center>
+<img id=Homepage src="WebScreenshotHP.jpg" class=resize alt=Homepage></center>
+    </div>
+  </div>
 
-  </div>
-  </div>
+  <script>
+    $(document).ready(function() {
+      $("img#HikerHack").fadeIn(3000);
+      setTimeout(function(){ $("img#PA").fadeIn(3000); }, 1500);
+      setTimeout(function(){ $("img#Homepage").fadeIn(3000); }, 3000);
+    })
+    </script>
 
   </body>
+
+
+
 
 </html>
