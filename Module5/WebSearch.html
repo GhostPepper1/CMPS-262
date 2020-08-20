@@ -1,0 +1,35 @@
+<html>
+  <head>
+  <script defer src="Api.js"></script>
+	<title>NYT Web Search</title>
+  </head>
+
+  <body>
+  <h1>Welcome to the New York Times search page!</h1>
+
+
+<div><br>
+  Search News Articles: <br>
+  <input type="text" name="news" id="input1"><br><br>
+  <button onclick="Api()">Click me</button>
+
+<script>
+  var key='rl5k3p12c1hAX8aZEb72aCelil9jbwEf'
+  var urlbase='https://api.nytimes.com/svc/search/v2/articlesearch.json?'
+  var keyword=$(input#input1").text();
+  var query='?q='
+  var apikeyidentity='api-key='
+  var url='urlbase + query + keyword + apikeyidentity + key'
+
+function Api() {
+document.getElementById("url").val;
+}
+</script>
+</div>
+
+
+  <div>
+
+  </div>
+</body>
+</html>
