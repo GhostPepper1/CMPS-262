@@ -25,7 +25,7 @@ It's available for both IOS and Android
 ## Application Environment Details
 
 [grid="rows",format="csv"]
-[options="header",cols="^,<,<s,<,>m"]
+
 |=============================
 App,Location,Environment,URL,Status,Version
 `{FOODPANTRY_APP}`,`{FOODPANTRY_LOC}`,`{FOODPANTRY_ENV}`,`{FOODPANTRY_URL}`,`{FOODPANTRY_STATUS}`,`{FOODPANTRY_VERSION}`,
