@@ -1,4 +1,6 @@
 # My Portfolio Webpage
 
+:imagesdir: Images
+
 image::Logo.jpg[alt=logo,width=250px][orientation=portrait]
 
