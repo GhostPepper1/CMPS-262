@@ -4,3 +4,9 @@
 
 image::Logo.jpg[alt=logo,width=250px][orientation=portrait]
 
+## What is the Michael Smith Portfolio Page?
+Michael created this page to share some of his projects along with what he has learned in the Information Technology program at Point Park University.
+
+## What programming languages are utilized?
+Michael's Portfolio Page uses HTML and JAVASCRIPT.
+
