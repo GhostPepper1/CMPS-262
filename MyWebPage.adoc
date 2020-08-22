@@ -7,6 +7,11 @@ image::Logo.jpg[alt=logo,width=250px][orientation=portrait]
 ## What is the Michael Smith Portfolio Page?
 Michael created this page to share some of his projects along with what he has learned in the Information Technology program at Point Park University.
 
-## What programming languages are utilized?
+## What programming languages were utilized?
 Michael's Portfolio Page uses HTML and JAVASCRIPT.
 
+## What is the structure of the Git Branch methodology?
+image::Git Branch Strategy Diagram.png[alt=logo,width=250px][orientation=portrait]
+
+## What is the procedure for uploading local files to the Github.com remote repository?
+image::Implementation.png[alt=logo,width=250px][orientation=portrait]
